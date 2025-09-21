@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jonathan — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <!-- Fixed Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">JONATHAN</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Hero Section -->
+  <header class="hero">
+    <h1 class="hero-title" id="animated-title">JONATHAN</h1>
+    <div class="social-links" style="display: flex; gap: 18px; justify-content: center;">
+      <a href="https://www.instagram.com/jonathan___.sh/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://tryhackme.com/p/Jonathan1101" target="_blank" title="TryHackMe"><i class="fas fa-user-secret"></i></a>
+      <a href="https://app.hackthebox.com/profile" target="_blank" title="Hack The Box"><i class="fas fa-terminal"></i></a>
+      <a href="https://steamcommunity.com/profiles/76561199228825243/" target="_blank" title="Steam"><i class="fab fa-steam"></i></a>
+      <a href="https://discord.com/users/YOUR_ID" target="_blank" title="Discord"><i class="fab fa-discord"></i></a>
+    </div>
+    <p class="hero-subtitle">Cyber Security • CTFs • Projects</p>
+    <p class="hero-subtitle" id="animated-caption"></p>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+  <section id="about" class="section fade-in-section">
+  <h2>About Me</h2>
+  <p>My name is Jonathan Shaul, I am 19 and a half years old, and I am currently a student at Harel College, specializing in Network Communication and Cybersecurity. I completed my high school studies in IT and Computer Science, which gave me a solid foundation in the world of computing and technology.</p>
+  <p>I am passionate about cybersecurity and aim to build a career in this field, focusing on research and exploration of specific topics such as information security and security engineering. Additionally, I am fascinated by emerging technologies and enjoy learning about innovations in artificial intelligence.</p>
+  <p>In my free time, I enjoy reading books of various genres, especially fantasy and adventure, which allow me to explore new worlds and enhance my creativity. I also love playing the guitar, a hobby that develops patience, focus, and creative thinking. I occasionally play computer games, stay updated on new technologies, and continually seek knowledge that enriches my professional skills.</p>
+  <p>My goal is to contribute to the cybersecurity field by researching advanced security solutions, protecting digital environments, and exploring innovative approaches to safeguard information.</p>
+    </section>
+
+    <section id="skills" class="section fade-in-section">
+      <h2>Skills</h2>
+      <ul style="display: flex; flex-wrap: wrap; gap: 18px; justify-content: center; list-style: none; padding: 0;">
+        <li style="background: #203a43; padding: 10px 22px; border-radius: 18px; color: #00ffe0; font-weight: 600;">Network Security</li>
+        <li style="background: #203a43; padding: 10px 22px; border-radius: 18px; color: #00ffe0; font-weight: 600;">CTFs</li>
+        <li style="background: #203a43; padding: 10px 22px; border-radius: 18px; color: #00ffe0; font-weight: 600;">Python</li>
+        <li style="background: #203a43; padding: 10px 22px; border-radius: 18px; color: #00ffe0; font-weight: 600;">Linux</li>
+        <li style="background: #203a43; padding: 10px 22px; border-radius: 18px; color: #00ffe0; font-weight: 600;">Cybersecurity Research</li>
+        <li style="background: #203a43; padding: 10px 22px; border-radius: 18px; color: #00ffe0; font-weight: 600;">Information Security</li>
+        <li style="background: #203a43; padding: 10px 22px; border-radius: 18px; color: #00ffe0; font-weight: 600;">Teamwork</li>
+      </ul>
+    </section>
+
+  <section id="projects" class="section fade-in-section">
+      <h2>Projects</h2>
+      <ul style="list-style: disc inside; max-width: 600px; margin: 0 auto; text-align: left;">
+        <li><strong>Network Scanner</strong> – A Python tool for scanning and mapping network devices. <a href="#">[Demo]</a></li>
+        <li><strong>CTF Writeups</strong> – Documented solutions for various Capture The Flag challenges. <a href="#">[Read More]</a></li>
+        <li><strong>Personal Portfolio</strong> – This website, built to showcase my skills and projects. <a href="#">[Source]</a></li>
+  <li><strong>Microsoft Server (PDF)</strong> – My final project PDF. <a href="https://drive.google.com/file/d/1ZUxeDmBaAd5yimeecbHpq4lY_Nwum-4H/view?usp=sharing" target="_blank">[View PDF]</a></li>
+  <li><strong>Network and Security Project</strong> <a href="https://drive.google.com/file/d/1dMx-2Qp6bMIgQk2r7qtNB5XGpyI4ctLE/view?usp=sharing" target="_blank">[Download PDF Book]</a></li>
+  <li><strong>Cyber Security Project (Packet Tracer)</strong> – Packet Tracer file. <a href="https://drive.google.com/file/d/1ckSQsAzRRp282pBxEj_l0wKvCFFj4D1c/view?usp=sharing" target="_blank">[Download Packet Tracer]</a></li>
+      </ul>
+    </section>
+    </section>
+
+  <section id="contact" class="section fade-in-section">
+      <h2>Contact</h2>
+      <p>You can contact me at: <a href="mailto:jonathan@example.com">jonathan@example.com</a></p>
+      <p>Or reach out via my social links above!</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© <span id="year"></span> Jonathan — All Rights Reserved</p>
+  </footer>
+
+  <script>
+
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Multi-phrase typewriter effect for title and caption
+    function typeWriterMulti(element, phrases, speed = 110, pause = 1200, eraseSpeed = 60, loop = true) {
+      let phraseIdx = 0, charIdx = 0, erasing = false;
+      function type() {
+        const phrase = phrases[phraseIdx];
+        if (!erasing) {
+          element.innerHTML = phrase.substring(0, charIdx) + '<span class="type-cursor">|</span>';
+          if (charIdx < phrase.length) {
+            charIdx++;
+            setTimeout(type, speed);
+          } else {
+            erasing = true;
+            setTimeout(type, pause);
+          }
+        } else {
+          element.innerHTML = phrase.substring(0, charIdx) + '<span class="type-cursor">|</span>';
+          if (charIdx > 0) {
+            charIdx--;
+            setTimeout(type, eraseSpeed);
+          } else {
+            erasing = false;
+            phraseIdx = (phraseIdx + 1) % phrases.length;
+            setTimeout(type, 400);
+          }
+        }
+      }
+      type();
+    }
+
+    // For the main title, use a highlight effect (framed without border)
+    const animatedTitle = document.getElementById('animated-title');
+    if (animatedTitle) {
+  animatedTitle.innerHTML = '';
+  typeWriterMulti(animatedTitle, ['JONATHAN'], 120, 1800, 60, true);
+    }
+
+    // For the caption, cycle through phrases
+    const animatedCaption = document.getElementById('animated-caption');
+    if (animatedCaption) {
+      typeWriterMulti(animatedCaption, [
+        'Cyber Security',
+        'CTFs',
+        'Projects',
+        'Network Communication',
+        'Security Engineering'
+      ], 90, 1200, 50, true);
+    }
+
+    // Fade-in on scroll for sections
+    const faders = document.querySelectorAll('.fade-in-section');
+    const appearOptions = {
+      threshold: 0.18,
+      rootMargin: '0px 0px -40px 0px'
+    };
+    const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      });
+    }, appearOptions);
+    faders.forEach(fader => {
+      appearOnScroll.observe(fader);
+    });
+
+  </script>
+</body>
+</html>
